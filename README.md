@@ -3,7 +3,7 @@
 
 ## How to use
 
-- Download project
+- [Download project](https://github.com/Azuyamat/mia/archive/refs/tags/1.0.0.zip)
 - Change path in `zip_proj.bat` to the path for `main.py` in your context
 - Press `Win + R`, type `regedit` and press **Enter**
 - Navigate to `HKEY_CLASSES_ROOT\Directory\shell`
