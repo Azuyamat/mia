@@ -49,8 +49,8 @@ if __name__ == '__main__':
         output_path = os.path.join(source_path, os.path.join(source_path, output_path) + ".zip")
 
     # Define the folder and extension blacklist
-    folder_blacklist = [".git", ".idea", ".vs", "bin", "obj"]
-    extension_blacklist = [".user", ".git", ".zip"]
+    folder_blacklist = [".git", ".idea", ".vs", "bin", "obj", "TestResults", ".userprefs", ".suo"]
+    extension_blacklist = [".user", ".git", ".zip", ".pdf", ".docx"]
 
     zip_directory(source_path, output_path, folder_blacklist, extension_blacklist)
     print("Zip file created successfully.")
