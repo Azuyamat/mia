@@ -3,10 +3,15 @@
 
 ## How to use
 
+**Installation**
 - [Download batch file](https://github.com/Azuyamat/mia/releases/download/1.1.0/mia.bat)
 - Place it in a folder (not in your downloads)
 - Run the batch file with administrator rights
 - You can now delete the mia.bat if you'd like
+
+**Tool usage**
+- Shift + Right-Click any project folder and click on `Mia Zip` in the context menu
+- Input a path (ex: `C:\code\foo.zip`) or specify a name (ex: `foo`) to create a zip with the name `foo` when prompted
 
 ### What did this do?
 
