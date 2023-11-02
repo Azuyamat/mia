@@ -3,17 +3,22 @@
 
 ## How to use
 
-- [Download project](https://github.com/Azuyamat/mia/archive/refs/tags/1.0.0.zip)
-- Change path in `zip_proj.bat` to the path for `main.py` in your context
-- Press `Win + R`, type `regedit` and press **Enter**
-- Navigate to `HKEY_CLASSES_ROOT\Directory\shell`
-- Right-click the shell key, select **New**, and create a new key (folder). Name it something like "Zip Folder" (this will be the name that appears in the context menu).
-- Right-click the new key you created (e.g., "Zip Folder"), and create a new key inside it named "command."
-- In the right pane, double-click on the (Default) value and set its data to the path to your batch file (e.g., `"C:\path\to\zip_context_menu.bat" "%1"`). Make sure to include the "%1" to pass the selected folder's path to your batch file.
-- Close the Registry Editor.
-- You should now have the option in the context menu with the name you gave it
+- [Download batch file](https://github.com/Azuyamat/mia/releases/download/1.1.0/mia.bat)
+- Place it in a folder (not in your downloads)
+- Run the batch file with administrator rights
+- You can now delete the mia.bat if you'd like
 
-![img.png](img.png)
+### What did this do?
+
+- Adds a registry value towards the `zip_proj.bat` file
+- Creates the `zip_proj.bat` file which contains execution details for the `main.py` file
+- Downloads the `main.py` file from this repository
 
 ## Where is the ZIP file?
 The zip file should automatically pop up once it is created, if it doesn't it should be under the project directory.
+
+## What does this look like?
+
+> Note: Instead of `Zip Project` the name will appear as `Mia Zip`
+
+![img.png](img.png)
